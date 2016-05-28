@@ -10,9 +10,6 @@
 挺不错的配色方案，终端下也有很好的显示效果。
 
 ## Plugins 
-* pyflakes  
-Python语法检查，需要在vimrc中加入`filetype plugin indent on`以确保插件被加载，如果不写Python可以删除该文件夹。  
-
 * NERD Commenter  
 快速注释，注释快捷键为英文逗号“,”，当然可以在.vimrc里改`let mapleader = ","`这一句来设置自己喜欢的快捷键。  
 > ,ca：在可选的注释方式之间切换，比如C/C++ 的块注释`/* */`和行注释//  
