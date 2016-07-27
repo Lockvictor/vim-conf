@@ -2,7 +2,12 @@
 我在Linux下vim和gvim的配置文件
 
 # 使用说明
-把vimrc文件拷贝到个人目录下改名为.vimrc（如果使用gvim就把gvimrc复制到个人目录下改名为.gvimrc），然后把vim-conf文件夹拷贝到个人目录下改名为.vim。
+把vimrc文件拷贝到个人目录下改名为.vimrc（如果使用gvim就把gvimrc复制到个人目录下改名为.gvimrc），然后把vim-conf文件夹拷贝到个人目录下改名为.vim。  
+虽然vi早已被vim取代，但在终端工作时通常习惯于用vi代替vim命令，所以请在.bashrc文件中添加如下两句：
+```shell
+alias vi="vim"
+alias sudo="sudo " #注意有个空格，不添加此句sudo vi依然会调用vi而不是vim
+```
 
 # 配置说明
 ##Colors
