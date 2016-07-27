@@ -41,12 +41,12 @@ set mouse=a		" Enable mouse usage (all modes)
 
 
 "color
-"set t_Co=256
-"color molokai
-"let g:rehash256 = 1     " for terminal
+set t_Co=256
+color molokai
+let g:rehash256 = 1     " for terminal
 "let g:molokai_original = 1     " for GUI
 
-"set background=dark
+set background=dark
 
 " font and chinese font
 "set guifont=Droid\ Sans\ Mono\ 10
