@@ -11,8 +11,10 @@ alias sudo="sudo " #注意有个空格，不添加此句sudo vi依然会调用vi
 
 # 配置说明
 ##Colors
+* blackboard  
+配色还算比较好看，但只能在gvim下使用
 * molokai.vim  
-挺不错的配色方案，终端下也有很好的显示效果。
+vim和gvim下都有很好的显示效果，终端下原来的深黑色背景太刺眼，于是我把背景调浅了一些，看起来更柔和
 
 ## Plugins 
 * NERD Commenter  
