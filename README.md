@@ -1,13 +1,12 @@
 # vim-conf
-我在Linux下vim和gvim的配置文件
+我在Linux下的vim配置
 
 # 使用说明
 安装
-```bash
-cd ~
+```shell
 git clone https://github.com/Lockvictor/vim-conf.git
-ln -s vimconf .vim
-ln -s vimconf/vimrc ./vimrc
+ln -s vim-conf ~/.vim
+ln -s vim-conf/vimrc ~/.vimrc
 ```
 另外，虽然vi早已被vim取代，但在终端工作时通常习惯于用vi代替vim命令，所以请在.bashrc文件中添加如下两句：
 ```shell
