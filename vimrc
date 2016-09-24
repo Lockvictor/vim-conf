@@ -1,8 +1,3 @@
- "Source a global configuration file if available
-if filereadable("/etc/vimrc")
-  source /etc/vimrc
-endif
-
 "global
 set nocompatible
 set number
@@ -37,7 +32,7 @@ set smartcase		" Do smart case matching
 set incsearch		" Incremental search
 set autowrite		" Automatically save before commands like :next and :make
 set hidden		" Hide buffers when they are abandoned
-set mouse=a		" Enable mouse usage (all modes)
+set pastetoggle=<F11>	" switch normal mode and paste mode by F11
 
 
 "color

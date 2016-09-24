@@ -2,8 +2,14 @@
 我在Linux下vim和gvim的配置文件
 
 # 使用说明
-把vimrc文件拷贝到个人目录下改名为.vimrc（如果使用gvim就把gvimrc复制到个人目录下改名为.gvimrc），然后把vim-conf文件夹拷贝到个人目录下改名为.vim。  
-虽然vi早已被vim取代，但在终端工作时通常习惯于用vi代替vim命令，所以请在.bashrc文件中添加如下两句：
+安装
+```bash
+cd ~
+git clone https://github.com/Lockvictor/vim-conf.git
+ln -s vimconf .vim
+ln -s vimconf/vimrc ./vimrc
+```
+另外，虽然vi早已被vim取代，但在终端工作时通常习惯于用vi代替vim命令，所以请在.bashrc文件中添加如下两句：
 ```shell
 alias vi="vim"
 alias sudo="sudo " #注意有个空格，不添加此句sudo vi依然会调用vi而不是vim
@@ -11,8 +17,6 @@ alias sudo="sudo " #注意有个空格，不添加此句sudo vi依然会调用vi
 
 # 配置说明
 ##Colors
-* blackboard  
-配色还算比较好看，但只能在gvim下使用
 * molokai.vim  
 vim和gvim下都有很好的显示效果，终端下原来的深黑色背景太刺眼，于是我把背景调浅了一些，看起来更柔和
 
@@ -36,5 +40,5 @@ vim和gvim下都有很好的显示效果，终端下原来的深黑色背景太�
 为Python提供更好的配色支持。
 
 
-#备注
-由于主要工作在终端，所以只能确保.vimrc配置的没问题，.gvimrc没有经过详细测试。
+#更新
+2016-09-24 删除gvimrc，非终端环境下就不要再折腾vim了，好好使用其他编辑器吧，比如vs code
